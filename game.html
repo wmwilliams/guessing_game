@@ -13,10 +13,13 @@ if(guess==answer){
   response="Lucky guess!"
 }else{
   if(guess<answer){
-  response="I'm not that young..."
+  response="I WISH I was that young"
 }else{
   response="I'm not that old!"
 }
+}
+if(answer!=guess){
+  alert("Refresh your page and try again")
 }
 alert(response);
 
