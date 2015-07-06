@@ -6,21 +6,15 @@ var guess,
 guess=prompt("See if you can guess how old I am");
 console.log("You have guessed " + guess);
 
-answer = 24;
-console.log("The answer is "+answer);
+if(guess!=answer){
+  guess=prompt("Nice try, but try again")
+}
 
+answer = 24;
 if(guess==answer){
-  response="Lucky guess!"
-}else{
-  if(guess<answer){
-  response="I WISH I was that young"
-}else{
-  response="I'm not that old!"
+  alert("Wow good job!");
 }
-}
-if(answer!=guess){
-  alert("Refresh your page and try again")
-}
+
 alert(response);
 
 </script>
