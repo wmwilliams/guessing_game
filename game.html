@@ -1,0 +1,23 @@
+<script>
+var guess,
+    answer,
+    response;
+
+guess=prompt("See if you can guess how old I am");
+console.log("You have guessed " + guess);
+
+answer = 24;
+console.log("The answer is "+answer);
+
+if(guess==answer){
+  response="Lucky guess!"
+}else{
+  if(guess<answer){
+  response="I'm not that young..."
+}else{
+  response="I'm not that old!"
+}
+}
+alert(response);
+
+</script>
