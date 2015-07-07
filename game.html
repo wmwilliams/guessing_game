@@ -1,0 +1,19 @@
+<script>
+var guess,
+    answer,
+    response
+
+guess=prompt("See if you can guess how old I am but be careful you can only have 2 guesses....");
+console.log("You have guessed " + guess);
+ answer = 24;
+
+  if(guess!=answer){
+    prompt("Nice try, but try again")
+  }
+  if(guess==answer){
+    alert("Wow good job!");
+  }
+response="Game Over!"
+
+alert(response);
+</script>
