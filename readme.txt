@@ -1,2 +1,1 @@
-Well this is the readme for my simple little game. Its pretty basic, the idea is to try and guess my age. Good luck!
-After revisions you will be re-prompted until the correct answer is provided.
+New question has been added to the game and a scoring variable lets the user know how many questions he/she answered correctly.
